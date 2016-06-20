@@ -20,7 +20,11 @@
     "itsgoingd/slim-facades": "dev-master",
     "illuminate/database" : "4.*",
     "cartalyst/sentry" : "2.*",
-    "ircmaxell/password-compat": "1.0.*"
+    "ircmaxell/password-compat": "1.0.*",
+    "slaxframework/framework": "dev-master",
+    "slaxframework/menu": "dev-master",
+    "slaxframework/module": "dev-master",
+    "slaxframework/twig-extension": "dev-master"
   },
   "autoload": {
     "psr-4": {
@@ -29,18 +33,6 @@
         "app/models/",
         "app/middlewares/",
         "app/modules/"
-      ],
-      "SlaxFramework\\Framework\\" : [
-        "src/slaxframework/framework/"
-      ],
-      "SlaxFramework\\Menu\\" : [
-        "src/slaxframework/menu/"
-      ],
-      "SlaxFramework\\Module\\" : [
-        "src/slaxframework/module/"
-      ],
-      "SlaxFramework\\TwigExtension\\" : [
-        "src/slaxframework/twig-extension"
       ]
     }
   },

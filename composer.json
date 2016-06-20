@@ -13,18 +13,7 @@
   ],
   "require": {
     "php": ">= 5.3.0",
-    "slim/slim": "2.4.*",
-    "slim/views":"0.1.2",
-    "twig/twig": "1.*",
-    "twig/extensions": "*",
-    "itsgoingd/slim-facades": "dev-master",
-    "illuminate/database" : "4.*",
-    "cartalyst/sentry" : "2.*",
-    "ircmaxell/password-compat": "1.0.*",
-    "slaxframework/framework": "dev-master",
-    "slaxframework/menu": "dev-master",
-    "slaxframework/module": "dev-master",
-    "slaxframework/twig-extension": "dev-master"
+    "slaxframework/framework": "dev-master"
   },
   "autoload": {
     "psr-4": {
